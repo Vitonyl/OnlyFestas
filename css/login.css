@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    min-height: 100vh;
+    background-color: #340447 ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+  }
+  
+  .main-container a {
+    text-decoration: none;
+  }
+  
+  .main-container .login-wrapper {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 172px 6px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 172px 6px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 172px 6px rgba(0,0,0,0.2); 
+  
+    width: 200%;
+    max-width: 500px;
+    min-height: 420px;
+    display: flex;
+  }
+  
+
+  .main-container .login-wrapper .form-wrapper .form-container {
+    padding: 0px 60px;
+  }
+  
+  .main-container .login-wrapper .form-wrapper .form-container .form-messages {
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .p {
+    text-align: center;
+    font-weight: bold ;
+  }
+  .google {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #db4a39;
+    color: #fff;
+    text-align: center;
+  }
+  .google:hover {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #d12613e5;
+    color: #fff;
+    text-align: center;
+  }
+  .main-container .login-wrapper .form-wrapper .form-container .form-messages h2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .main-container .login-wrapper .form-wrapper .form-container .form input {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    border: none;
+    padding: 10px;
+  }
+  
+  .main-container .login-wrapper .form-wrapper .form-container .form a {
+    display: block;
+  }
+  
+  .main-container .login-wrapper .form-wrapper .form-container .form .forgot-pass {
+    text-align: right;
+    font-weight: 900;
+    color: black;
+  }
+  .main-container .login-wrapper .form-wrapper .form-container .form .forgot-pass:hover {
+    text-align: right;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  
+  .main-container .login-wrapper .form-wrapper .form-container .form .login-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #402E47;
+    color: #fff;
+    text-align: center;
+  }
+  .main-container .login-wrapper .form-wrapper .form-container .form .login-button:hover {
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    padding: 10px;
+    border-radius: 80px;
+    background-color: #6D0994;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+
+
+
+  
