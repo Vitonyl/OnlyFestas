@@ -23,14 +23,12 @@ body {
 header {
     background-image: linear-gradient(to top,	#C751E1,#8B0AA8);
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 header > img {
     padding-left: 50px;
 }
-.btPerfil a {
-    position: absolute; top: 60px; left: 1250px; 
-    display: inline-block;
+.btPerfil {
+    position: absolute; top: 55px; left: 1230px;  
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
@@ -40,10 +38,10 @@ header > img {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;/
+    transition: background-color 0.3s;
     text-decoration: none;
 }
-.btPerfil:hover  a {
+.btPerfil:hover{
     background-color: #6D0994;
 }
 .btCarrinho {
@@ -228,4 +226,42 @@ footer {
     background-color: #6D0994;
     color: white;
     text-align: center ;
+}
+footer {
+    background-color: #6D0994;
+    color: white;
+}
+footer .div1 {
+    display: inline-table;
+    margin: auto;
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div2 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div3 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer div h3 {
+    padding-bottom: 10px;
+}
+footer div p {
+    padding-bottom: 5px;
+}
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+footer div p a:hover {
+    color: white;
+    text-decoration: underline;
 }

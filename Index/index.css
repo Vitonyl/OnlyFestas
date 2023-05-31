@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+/* 
+inhas cores 
+#A945D0
+#920CC7
+#6D0994
+#402E47
+#340447 
+*/
+
+:root {
+    --corPrincipal: #00000000; 
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.199);
+}
+header {
+    background-image: linear-gradient(to top,	#C751E1,#8B0AA8);
+    padding-top: 30px;
+}
+header > img {
+    padding-left: 50px;
+}
+.btLogin {
+    position: absolute; top: 55px; left: 1220px;  
+    width: 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #340447 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.btLogin:hover{
+    background-color: #6D0994;
+}
+.btRegistro {
+    position: absolute; top: 70px; left: 1220px;  
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #340447 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.btRegistro:hover{
+    background-color: #6D0994;
+}
+.btCarrinho {
+    position: absolute; top: 45px; left: 1150px; 
+    width: 25px;
+    height: 25px;
+    font-size: 38px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btChat {
+    position: absolute; top: 48px; left: 1070px; 
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 38px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ .btPesquisa {
+    position: absolute; top: 63px; left: 280px; 
+    border: none;
+ }
+  .formulario-pesquisa input[type="Pesquisa"] {
+    padding: 8px;
+    border: none;
+    width: 600px;
+    border-radius: 12px;
+  }
+nav {
+    background-color : 	#340447 ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px;
+    text-align: center;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 90px;
+    border-radius: 5px;
+    margin: 100px;
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+nav > a:hover {
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 90px;
+    text-decoration: underline;
+    background-color: #6D0994 ;
+}
+main {
+    padding: 20px 10px; 
+}
+.Prin {
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.838);
+    margin: auto;
+    margin: 40px;
+    margin-left: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.Prin2 {
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.838);
+    margin: auto;
+    margin: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.produtoBut {
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.descBut {
+    font-size: 15px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.prodPrin {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    padding-top: 20px
+}
+.prodSec {
+text-align: center;
+padding-bottom: 20px;
+}
+.container {
+    max-width: 200px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin: auto;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container2 {
+    max-width: 200px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin: auto;
+    margin: 40px;
+    margin-left: 364px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container3 {
+    max-width: 200px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.644);
+    margin: auto;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.produtoImagem {
+    width: 200px;
+    height: 200px;
+}
+.produtoTitulo {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+
+}
+.produtoDescricaoPromo {
+    margin-bottom: 10px;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 12px;
+}
+.produtoPreco {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.produtoDesc {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: right;
+    font-weight: bolder;
+}
+.produtoButao {
+    background-color: #920CC7;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 11px;
+}
+.produtoButao:hover {
+    background-color: #A945D0;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+footer {
+    background-color: #6D0994;
+    color: white;
+}
+footer .div1 {
+    display: inline-table;
+    margin: auto;
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div2 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div3 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer div h3 {
+    padding-bottom: 10px;
+}
+footer div p {
+    padding-bottom: 5px;
+}
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+footer div p a:hover {
+    color: white;
+    text-decoration: underline;
+}
