@@ -110,16 +110,53 @@ main {
     font-size: 12px;
 }
 .produto {
-    position: absolute; top: 290px; right: 200px;
+    position: absolute; top: 290px; right: 220px;
     color: black;
-    font-size: 28px;
+    font-size: 25px;
 }
 .container > .i1 {
     position: absolute; top: 250px; right: 1073px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i1:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i2 {
+    position: absolute; top: 370px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i2:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i3 {
+    position: absolute; top: 485px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i3:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i4 {
+    position: absolute; top: 600px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i4:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
 }
     .container {
     width: 1000px;
-    height: 800px;
+    height: 700px;
     display: inline-table;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -130,7 +167,7 @@ main {
 .container > .container2{
     position: absolute; top: 720px; right: 600px;
     width: 580px;
-    height: 250px;
+    height: 150px;
     display: inline-table;
     background-color: rgba(255, 255, 255, 0.024);
     margin: auto;
@@ -138,6 +175,25 @@ main {
 }
 .container > img {
     position: absolute; top: 250px; right: 600px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.desc {
+    position: absolute; top: 350px; left: 950px;
+    font-size: 28px
+}
+.preco {
+    position: absolute; top: 355px; left: 830px;
+    font-size: 22px
+}
+.juros {
+        position: absolute; top: 400px; left: 835px;
+        font-size: 18px
+}
+.carrinho {
+    position: absolute; bottom: 380px; left: 650px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 footer {
     background-color: #6D0994;

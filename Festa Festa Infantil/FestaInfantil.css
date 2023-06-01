@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/* 
+inhas cores 
+#A945D0
+#920CC7
+#6D0994
+#402E47
+#340447 
+*/
+
+:root {
+    --corPrincipal: #00000000; 
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.199);
+}
+header {
+    background-image: linear-gradient(to top,	#C751E1,#8B0AA8);
+    padding-top: 30px;
+}
+
+header > img {
+    padding-left: 40px;
+}
+
+.btPerfil {
+    position: absolute; top: 55px; left: 1230px;  
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #340447 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.btPerfil:hover{
+    background-color: #6D0994;
+}
+.btCarrinho {
+    position: absolute; top: 45px; left: 1150px; 
+    width: 25px;
+    height: 25px;
+    font-size: 38px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btChat {
+    position: absolute; top: 48px; left: 1070px; 
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 38px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ .btPesquisa {
+    position: absolute; top: 63px; left: 280px; 
+    border: none;
+ }
+  .formulario-pesquisa input[type="Pesquisa"] {
+    padding: 8px;
+    border: none;
+    width: 600px;
+    border-radius: 12px;
+  }
+nav {
+    background-color : 	#340447 ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px;
+    text-align: center;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 90px;
+    border-radius: 5px;
+    margin: 100px;
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+nav > a:hover {
+    padding-left: 90px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 90px;
+    text-decoration: underline;
+    background-color: #6D0994 ;
+}
+main {
+    background-color: rgba(255, 255, 255, 0.644);
+}
+.caminho{
+    position: absolute; top: 250px; right: 280px;
+    color: gray;
+    font-size: 12px;
+}
+.produto {
+    position: absolute; top: 290px; right: 220px;
+    color: black;
+    font-size: 25px;
+}
+.container > .i1 {
+    position: absolute; top: 250px; right: 1073px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i1:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i2 {
+    position: absolute; top: 370px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i2:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i3 {
+    position: absolute; top: 485px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i3:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i4 {
+    position: absolute; top: 600px; right: 1073px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > .i4:hover {
+    height: 450px;
+    width: 450px;
+    position: absolute; top: 250px; right: 600px; 
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+    .container {
+    width: 1000px;
+    height: 700px;
+    display: inline-table;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin: 40px 40px 40px 150px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+
+.container > .container2{
+    position: absolute; top: 740px; right: 600px;
+    width: 580px;
+    height: 130px;
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.024);
+    margin: auto;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.container > img {
+    position: absolute; top: 250px; right: 600px;
+    box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+.desc {
+    position: absolute; top: 350px; left: 950px;
+    font-size: 28px
+}
+.preco {
+    position: absolute; top: 355px; left: 830px;
+    font-size: 22px
+}
+.juros {
+        position: absolute; top: 400px; left: 835px;
+        font-size: 18px
+}
+.carrinho {
+    position: absolute; bottom: 380px; left: 650px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #6D0994;
+    color: white;
+    text-align: center ;
+}
+footer {
+    background-color: #6D0994;
+    color: white;
+}
+footer .div1 {
+    display: inline-table;
+    margin: auto;
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div2 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer .div3 {
+    display: inline-table;
+    margin: auto;
+
+    padding: 20px;
+    margin-left: 220px;
+}
+footer div h3 {
+    padding-bottom: 10px;
+}
+footer div p {
+    padding-bottom: 5px;
+}
+footer div p a {
+    color: white;
+    text-decoration: none;
+}
+footer div p a:hover {
+    color: white;
+    text-decoration: underline;
+}
