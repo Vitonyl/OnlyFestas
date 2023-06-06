@@ -5,39 +5,52 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href=">
+        <link rel="stylesheet" href="Carrinho.css">
         <title>OnlyFestas</title>
     </head>
     <body>
         <header>
-            <img src="icon.png" alt="Imagem do Site" width="80" >
+            <img src="icon.png" alt="Imagem do Site" width="100" >
             <nav>
-              <a href="#">Início</a>
-              <a href="#">Produtos</a>
-              <a href="#">F.A.Q</a>
+              <a href="../Index/index.html">Início</a>
+              <a href="../Produtos/produtos.html">Produtos</a>
+              <a href="../F.A.Q/FAQ.html">F.A.Q</a>
             </nav>
             <a  href="#" class="btCarrinho">🛒</a>
             <a href="#" class="btChat">💬</a>
-            <a href="#" class="btPerfil">Perfil</a>
+            <a href="../tLogin/TelaLogin.html" class="btLogin">Login</a>
             <form class="formulario-pesquisa">
               <input class="btPesquisa" type="Pesquisa" placeholder="O que Procura?">
             </form>
         </header>
         <main>
-            <div class="container">
-                <img class="produtoImagem" src="Festa1.jpg" alt="Imagem do Produto">
-                <h1 class="produtoTitulo">Decoração Festa 15 anos</h1>
-                <p class="produtoPreco"><s>R$ 199,90</s></p>
+            <h2>Carrinho de Compras</h2>
+            <div>
+                <p class="produto">Produtos</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="pd1">
+                <a href="../Festa Festa Infantil/FestaInfantil.html"><img class="produtoImagem" src="Festa1.jpg" alt="Imagem do Produto" width="100px"></a>
+                <h1 class="produtoTitulo">Decoração Festa Infantil</h1>
+                <p class="produtoDesc">R140,00</p>
+                <button class="produtoButao">🗑️</button>
+            </div>
+            <div class="pd2">
+                <a href="../Festa Festa Boteco/FestaBoteco.html"><img class="produtoImagem" src="Festa2.jpg" alt="Imagem do Produto" width="100px"></a>
+                <h1 class="produtoTitulo">Decoração Festa Boteco</h1>
                 <p class="produtoDesc">R$ 99,90</p>
-                <p class="produtoDescricaoPromo">3x de 33,90 sem juros.</p>
-                <button class="produtoButao">🛒 Adicionar no Carrinho</button>
+                <button class="produtoButao">🗑️</button>
+            </div>
+            <div class="finalizar">
+                <h3>Total: 239,90</h3>
+                <p>3x de R$80,57 sem juros</p>
+                <button>Finalizar Compra</button>
             </div>
         </main>
-        <header>
         <footer>
             <div class="div1">
                 <h3>MENU</h3>
-                <p><a href="">Início</a></p>
+                <p><a href="../Index/index.html">Início</a></p>
                 <p><a href="">Avaliações de Clientes</a></p>
                 <p><a href="">Como Comprar</a></p>
                 <p><a href="">Privacidade e Segurança</a></p>
